@@ -37,7 +37,14 @@ class _HomeScreenState extends State<HomeScreen> {
                     'Chats',
                     style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
                   ),
-                  Icon(Icons.edit),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Icon(Icons.camera_enhance_rounded),
+                      Icon(Icons.edit),
+                    ],
+                  ),
+              
                 ],
               ),
               const SizedBox(
